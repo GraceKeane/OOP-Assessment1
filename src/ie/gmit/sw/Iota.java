@@ -12,8 +12,25 @@ package ie.gmit.sw;
 public interface Iota {
 	
 	// Generating delegate method
+	
+	/**
+	 * Creating an object Iota with a parameter of Status s
+	 * 
+	 * @param Status s operand one
+	 *  
+	 */
 	public Object Iota(Status s);
+	
+	/**
+	 * Calls the method gamma() in Gamma.java
+	 *   
+	 */
 	public String gamma();
+	
+	/**
+	 * Calls the method beta() in Beta.java
+	 *  
+	 */
 	public String beta();
 	
 }

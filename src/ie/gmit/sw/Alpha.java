@@ -8,7 +8,7 @@ import java.time.LocalDate;
  * It creates new objects, calls interface methods, then prints out data from specific classes. 
  * 
  * @author Grace Keane
- * @ Version 15
+ * @version 15
  * 
  */
 
@@ -16,19 +16,20 @@ public class Alpha {
 	
 	public static void main (String [] args){
 		
-		// Creating new objects
+		// Passing interface into Alpha & creating new objects
 		Iota g = new Gamma();
 		Iota b = new Beta();
-		
 		Theta d = new Delta();
 		Theta e = new Epsilon();
 		Theta z = new Zeta();
 		
-		// Calling interface methods.
-		// Should navigate to main method e.g. gamma in Gamma.java then print out results.
+		// Calling Iota.java interface methods.
+		// Navigates to interface and then calls method specified.
 		g.gamma();
 		b.beta();
 		
+		// Calling Theta.java interface methods.
+		// Navigates to interface and then calls method specified.
 		d.deltaTest();
 		e.epsilonTest();
 		z.zetaTest();
@@ -37,6 +38,7 @@ public class Alpha {
 		//Delta, Epsilon and Zeta handle more complex situations
 		DayOfWeek day = LocalDate.now().getDayOfWeek();
 		
+		// Switch statement for day
 		 switch (day) {
 			case MONDAY, TUESDAY -> d.delta(day.name());
 			case WEDNESDAY, THURSDAY -> e.epsilon(day.name());
