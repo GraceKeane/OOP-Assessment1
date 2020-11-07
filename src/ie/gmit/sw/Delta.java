@@ -1,5 +1,8 @@
 package ie.gmit.sw;
 
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+
 public class Delta implements Theta {
 	
 	public int delta(String value) {

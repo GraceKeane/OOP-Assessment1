@@ -12,7 +12,5 @@ public interface Theta {
 	
 	public int zeta(String v);
 	public String zetaTest();
-	
-
 
 }
