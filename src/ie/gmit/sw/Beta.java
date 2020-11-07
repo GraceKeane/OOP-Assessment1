@@ -4,12 +4,19 @@ package ie.gmit.sw;
  * Class Beta implements the interface Iota.
  * 
  * @author Grace Keane
- * @ Version 15
+ * @version 15
  * 
  */
 
 public class Beta implements Iota {
 	
+	/**
+	 * When method beta() is called it prints a simple statement and
+	 * its class address.
+	 * 
+	 * @return returns null
+	 *  
+	 */
 	public String beta() {
 		System.out.println("Beta.java is executing! " + "Class dddress: " + this.getClass().getName());
 		return null;
@@ -18,7 +25,9 @@ public class Beta implements Iota {
 	/**
 	 * Overriding the interface method Iota.
 	 * 
-	 * @param s
+	 * @param Status s takes in status of enum "Slight" or "Low"
+	 * @return returns the method beta() above
+	 * @return returns the value of s
 	 *  
 	 */
 	@Override
@@ -29,6 +38,12 @@ public class Beta implements Iota {
 		return s;
 	}
 
+	/**
+	 * Overriding the Iota interface method gamma().
+	 * 
+	 * @return return statement is null
+	 *  
+	 */
 	@Override
 	public String gamma() {
 		// TODO Auto-generated method stub
