@@ -14,7 +14,7 @@ public class Delta implements Theta {
 	
 	/**
 	 * Method delta takes in a value and returnes an address
-	 * hash code of that value
+	 * hash code of that value.
 	 * 
 	 * @param String value operand one
 	 * @return returns the hash code of the value
@@ -26,7 +26,7 @@ public class Delta implements Theta {
 	
 	/**
 	 * When method deltaTest() is called it prints a simple statement along
-	 * with its class address and hash code. This test clarifies that Delta.java
+	 * with its class address and hash code. This test clarifies that Delta
 	 * can be accessed in Alpha by calling the interface methods in Theta.
 	 * 
 	 * @return returns null
@@ -38,7 +38,7 @@ public class Delta implements Theta {
 	}
 
 	/**
-	 * Overriding object Theta specified in the interface class
+	 * Overriding object Theta specified in the interface class. 
 	 * 
 	 * @return returns null
 	 *  
@@ -50,7 +50,7 @@ public class Delta implements Theta {
 	}
 	
 	/**
-	 * Overriding the epsilonTest specified in the interface class
+	 * Overriding the epsilonTest specified in the interface class. 
 	 * 
 	 * @return returns null
 	 *  
@@ -62,7 +62,7 @@ public class Delta implements Theta {
 	}
 
 	/**
-	 * Overriding the epsilon method specified in the interface class
+	 * Overriding the epsilon method specified in the interface class. 
 	 * 
 	 * @param String value operand one
 	 * @return returns 0
@@ -75,7 +75,7 @@ public class Delta implements Theta {
 	}
 
 	/**
-	 * Overriding the zeta method specified in the interface class
+	 * Overriding the zeta method specified in the interface class. 
 	 * 
 	 * @param String v operand one
 	 * @return returns 0
@@ -88,7 +88,7 @@ public class Delta implements Theta {
 	}
 
 	/**
-	 * Overriding the zetaTest method specified in the interface class
+	 * Overriding the zetaTest method specified in the interface class. 
 	 * 
 	 * @return returns null
 	 *  
