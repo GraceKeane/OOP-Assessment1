@@ -10,8 +10,7 @@ package ie.gmit.sw;
 public class Zeta implements Theta {
 	
 	/**
-	 * Method zeta takes in a value v and returnes the
-	 * parsed value of v plus 7.
+	 * Method zeta takes in a value v and returnes the parsed value of v plus 7.
 	 * 
 	 * @param String v operand one
 	 * @return returns the parsed int of v plus 7
@@ -23,7 +22,7 @@ public class Zeta implements Theta {
 	
 	/**
 	 * When method zetaTest() is called it prints a simple statement along
-	 * with its class address and hash code. This test clarifies that Zeta.java
+	 * with its class address and hash code. This test clarifies that Zeta
 	 * can be accessed in Alpha by calling the interface methods in Theta.
 	 * 
 	 * @return returns null
@@ -35,7 +34,7 @@ public class Zeta implements Theta {
 	}
 
 	/**
-	 * Overriding object Theta specified in the interface class
+	 * Overriding object Theta specified in the interface class. 
 	 * 
 	 * @return returns null
 	 *  
@@ -47,7 +46,7 @@ public class Zeta implements Theta {
 	}
 
 	/**
-	 * Overriding the delta method specified in the Theta interface class
+	 * Overriding the delta method specified in the Theta interface class.
 	 * 
 	 * @return returns 0
 	 *  
@@ -59,7 +58,7 @@ public class Zeta implements Theta {
 	}
 
 	/**
-	 * Overriding the deltaTest specified in the interface class
+	 * Overriding the deltaTest specified in the interface class.
 	 * 
 	 * @return returns null
 	 *  
@@ -71,7 +70,7 @@ public class Zeta implements Theta {
 	}
 	
 	/**
-	 * Overriding the epsilonTest specified in the interface class
+	 * Overriding the epsilonTest specified in the interface class.
 	 * 
 	 * @return returns null
 	 *  
@@ -83,7 +82,7 @@ public class Zeta implements Theta {
 	}
 
 	/**
-	 * Overriding the epsilon method specified in the interface class
+	 * Overriding the epsilon method specified in the interface class.
 	 * 
 	 * @param String value operand one
 	 * @return returns 0

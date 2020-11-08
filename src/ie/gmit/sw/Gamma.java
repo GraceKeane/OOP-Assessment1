@@ -11,8 +11,7 @@ package ie.gmit.sw;
 public class Gamma implements Iota {
 	
 	/**
-	 * When method gamma() is called it prints a simple statement and
-	 * its class address.
+	 * When method gamma() is called it prints a simple statement and its class address.
 	 * 
 	 * @return returns null
 	 *  
@@ -24,7 +23,7 @@ public class Gamma implements Iota {
 	}
 
 	/**
-	 * Overriding the interface method Iota. Retrunes the method gamma.
+	 * Overriding the interface method Iota and retruning the method gamma.
 	 * 
 	 * @param Status s operand one takes in status of enum "Medium"
 	 * @return returns the method gamma() above

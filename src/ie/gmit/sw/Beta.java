@@ -11,8 +11,7 @@ package ie.gmit.sw;
 public class Beta implements Iota {
 	
 	/**
-	 * When method beta() is called it prints a simple statement and
-	 * its class address.
+	 * When method beta() is called it prints a simple statement and its class address.
 	 * 
 	 * @return returns null
 	 *  

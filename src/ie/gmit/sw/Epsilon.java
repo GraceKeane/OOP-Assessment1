@@ -10,8 +10,7 @@ package ie.gmit.sw;
 public class Epsilon implements Theta{
 	
 	/**
-	 * Method epsilon takes in a value and returnes the
-	 * length of that value.
+	 * Method epsilon takes in a value and returnes the length of that value.
 	 * 
 	 * @param String value operand one
 	 * @return returns the length of the value
@@ -23,8 +22,9 @@ public class Epsilon implements Theta{
 
 	/**
 	 * When method epsilonTest() is called it prints a simple statement along
-	 * with its class address and hash code. This test clarifies that Epsilon.java
-	 * can be accessed in Alpha by calling the interface methods in Theta.
+	 * with its class address and hash code.
+	 * This test clarifies that Epsilon can be accessed in Alpha by calling
+	 * the interface methods in Theta.
 	 * 
 	 * @return returns null
 	 *  
@@ -35,7 +35,7 @@ public class Epsilon implements Theta{
 	}
 
 	/**
-	 * Overriding object Theta specified in the interface class
+	 * Overriding object Theta specified in the interface class. 
 	 * 
 	 * @return returns null
 	 *  
@@ -48,7 +48,7 @@ public class Epsilon implements Theta{
 
 
 	/**
-	 * Overriding the delta method specified in the Theta interface class
+	 * Overriding the delta method specified in the Theta interface class. 
 	 * 
 	 * @return returns 0
 	 *  
@@ -60,7 +60,7 @@ public class Epsilon implements Theta{
 	}
 
 	/**
-	 * Overriding the deltaTest specified in the interface class
+	 * Overriding the deltaTest specified in the interface class. 
 	 * 
 	 * @return returns null
 	 *  
@@ -72,7 +72,7 @@ public class Epsilon implements Theta{
 	}
 
 	/**
-	 * Overriding the zeta method specified in the interface class
+	 * Overriding the zeta method specified in the interface class. 
 	 * 
 	 * @param String v operand one
 	 * @return returns 0
@@ -85,7 +85,7 @@ public class Epsilon implements Theta{
 	}
 
 	/**
-	 * Overriding the zetaTest method specified in the interface class
+	 * Overriding the zetaTest method specified in the interface class. 
 	 * 
 	 * @return returns null
 	 *  
